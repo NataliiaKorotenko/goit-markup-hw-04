@@ -145,6 +145,7 @@ logo {
 .main {
     padding-top: 192px;
     padding-bottom: 192px;
+    min-width: 1440px;
     background-image: var(--bg-gradient), url(../image/hero\ image.jpg);
     background-repeat: no-repeat;
     background-position: center;
@@ -295,11 +296,11 @@ logo {
     height: 100%;
     background-color: #4D5AE5;
     border-radius: 50%;
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.link {
-}
 
 .team-block,
 .menu-block {
