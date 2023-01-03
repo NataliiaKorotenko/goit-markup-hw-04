@@ -301,7 +301,6 @@ logo {
     justify-content: center;
 }
 
-
 .team-block,
 .menu-block {
     padding-top: 32px;
@@ -367,6 +366,39 @@ logo {
     color: #434455; 
 }
 
+/*----Customers----*/
+.customers {
+    padding-top: 130px;
+    padding-bottom: 120px;
+    background: var(--first-title-color);
+    text-align: center;
+}
+.customer-title {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+
+color: var(--second-title-color);;
+}
+.customers-list {
+}
+.list {
+}
+.customers-item {
+}
+.customers-link {
+}
+.link {
+}
+.customers-icon {
+}
+
+
+
 /*----Foooter----*/
 
 .footer {
@@ -376,6 +408,12 @@ logo {
 
 .footer-container {
 margin-bottom: 16px;
+}
+
+.footer-catalog {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 120px;
 }
 
 .footer-logo {
@@ -406,4 +444,37 @@ margin-bottom: 16px;
     letter-spacing: 0.02em;
     color: #E7E9FC;
     margin: 0;
+}
+
+.footer-media{
+    margin-bottom: 16px;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+
+
+}
+
+.footer-soc-list {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.footer-soc-item {
+    width: 40px;
+    height: 40px;
+}
+
+.footer-soc-link {
+    width: 100%;
+    height: 100%;
+    background-color:rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
