@@ -37,7 +37,7 @@ logo {
 .list {
     list-style: none;}
 
-.link{
+.link {
     text-decoration: none;
 }
 
@@ -150,7 +150,6 @@ logo {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-
 }
 
 .main-title {
@@ -373,7 +372,8 @@ logo {
     background: var(--first-title-color);
     text-align: center;
 }
-.customer-title {
+.customers-title {
+    padding-bottom: 72px;
     font-family: 'Roboto';
     font-weight: 700;
     font-size: 36px;
@@ -387,17 +387,14 @@ color: var(--second-title-color);;
 
 .customers-list {
     display: flex;
+    justify-content: center;
     gap: 24px;
 }
 
 .customers-item {
-    display: flex;
-    flex-wrap: wrap;
+    width: calc((100% - 120px) / 6);
     height: 88px;
-    gap: 24px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    
 }
 
 .customers-link {
@@ -405,6 +402,9 @@ color: var(--second-title-color);;
     height: 100%;
     border: 1px dashed #9747FF;
     border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .customers-icon {
