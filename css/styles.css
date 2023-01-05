@@ -185,21 +185,45 @@ logo {
     padding-top: 120px;
     padding-bottom:  120px;
 }
-
 .about-catalog {
+    display: flex; 
+    column-gap: 24px;
+    justify-content: center;
+}
+
+.about-list {
     display: flex;
     flex-wrap: wrap;
-    column-gap: 24px;
+    gap: 8px;
+    height: 112px;
+    width: 264px;
+    margin-bottom: 8px;
+
+}
+.about-block {
+    display: flex;
+    flex-wrap: wrap;
+    height: 112px;
+}
+
+.about-link {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #F4F4FD;
+    border-radius: 4px;
 }
 
 .about-title {
-    margin-bottom: 8px;
     font-family: 'Roboto';
     font-weight: 600;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--second-title-color);
+    margin-bottom: 8px;
 }
 
 .about-text {
@@ -400,14 +424,11 @@ color: var(--second-title-color);;
 .customers-link {
     width: 100%;
     height: 100%;
-    border: 1px dashed #9747FF;
-    border-radius: 5px;
+    border: 1px solid #8E8F99;
+    border-radius: 4px;
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-.customers-icon {
 }
 
 
