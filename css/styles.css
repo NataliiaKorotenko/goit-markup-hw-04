@@ -346,6 +346,7 @@ logo {
 
 .team-soc-link:hover,
 .team-soc-link:focus {
+    background: #404BBF;
 
 }
 
@@ -404,6 +405,7 @@ logo {
 .menu-list:hover,
 .menu-list:focus {
     box-shadow: 0px 1px 6 0 #2E2F42;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .menu-block {
@@ -450,7 +452,6 @@ color: var(--second-title-color);;
 .customers-item {
     width: calc((100% - 120px) / 6);
     height: 88px;
-    
 }
 
 .customers-link {
@@ -463,6 +464,15 @@ color: var(--second-title-color);;
     justify-content: center;
 }
 
+.customers-link:hover,
+.customers-link:focus {
+    border: 1px solid #404BBF;
+}
+
+.customers-link .customers-icon:hover,
+.customers-link .customers-icon:focus {
+    fill: #404BBF;
+}
 
 
 /*----Foooter----*/
@@ -547,5 +557,5 @@ margin-bottom: 16px;
 
 .footer-soc-link:hover,
 .footer-soc-link:focus {
-background: #404BBF;
+background: #31D0AA;;
 }
