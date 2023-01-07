@@ -464,6 +464,10 @@ color: var(--second-title-color);;
     justify-content: center;
 }
 
+.customers-icon {
+    fill: #AFB1B8;
+}
+
 .customers-link:hover,
 .customers-link:focus {
     border: 1px solid #404BBF;
@@ -530,7 +534,6 @@ margin-bottom: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #FFFFFF;
-
 
 }
 
