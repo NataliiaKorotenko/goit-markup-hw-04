@@ -459,24 +459,23 @@ color: var(--second-title-color);;
     height: 100%;
     border: 1px solid #8E8F99;
     border-radius: 4px;
+    color:  #AFB1B8;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .customers-icon {
-    fill: #AFB1B8;
+    fill:currentColor;
 }
 
 .customers-link:hover,
 .customers-link:focus {
     border: 1px solid #404BBF;
+    color: #404BBF;
 }
 
-.customers-link .customers-icon:hover,
-.customers-link .customers-icon:focus {
-    fill: #404BBF;
-}
+
 
 /*----Foooter----*/
 
