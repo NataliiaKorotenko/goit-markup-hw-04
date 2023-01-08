@@ -223,17 +223,19 @@ logo {
     justify-content: center;
     background: #F4F4FD;
     border-radius: 4px;
+    color: #2E2F42;
 }
 
-.about-block:hover,
-.about-block:focus {
+.about-icon {
+fill:currentColor;
+}
+
+.about-link:hover,
+.about-link:focus {
     border: 1px solid #404BBF;
+    color: #404BBF;
 }
 
-.about-block .about-icon:hover,
-.about-block .about-icon:focus {
-     fill: #404BBF;
-}
 
 .about-title {
     font-family: 'Roboto';
